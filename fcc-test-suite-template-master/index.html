@@ -7,24 +7,25 @@
   </head>
 
   <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
      <header id="header">
        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOuhLfgzznA8O-Lg8vc4ZAEFfqcTe8K_M4DQ&usqp=CAU" alt="football logo" id="header-img">
        <nav id="nav-bar">
-         <a href="#" class="nav-link">Features</a>
-         <a href="#" class="nav-link">How it Works</a>
-         <a href="#" class="nav-link">Pricing</a>
+         <a href="#features" class="nav-link">Features</a>
+         <a href="#works" class="nav-link">How it Works</a>
+         <a href="#info" class="nav-link">info</a>
        </nav>
      </header>
      <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" placeholder="Enter Email" id="email" required>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      <div id="works">
           <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/d51xcx_7Z5o" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div id="inputs">
-            <form id="form" action="">
-              <input type="email" name="email" placeholder="Enter Email" id="email" required>
-        
-            </form>
-          </div>
+      </div>
      </main>
-     
+     <script  src="js/index.js"></script>
   </body>
 </html>
