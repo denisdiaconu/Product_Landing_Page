@@ -3,9 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
-#header {
-    position: fixed;
+body {
+    background-color: rgb(70, 63, 63);
+    text-align: center;
 }
+#header-img {
+    width: 200px;
+    height: 80px;
+}
+#nav-bar {
+    margin: 40px;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(70, 63, 63);
+    font-weight: bold;
+    margin: 20px;
+    border: 2px solid rgb(70, 63, 63);
+}
+#title {
+    margin-top: 150px;
+    color: white;
+}
+.nav-link:hover {
+    background-color: rgb(70, 63, 63);
+    color: white;
+    box-shadow: 0px 0px 10px 20px rgb(70, 63, 63);
+}
+#submit {
+    background-color: green;
+    color: white;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#email {
+    width: 300px;
+}
+#header {
+    background-color: white;
+}
+#form {
+    margin-top: 100px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+    @media (max-width: 600px) {
+      #header {
+      flex-wrap: wrap;
+    }
+  }
+#title2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+
+}
+#title3 {
+    color: white;
+    font-size: 30px;
+
+}
+#shirt {
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+#ball {
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 #video {
-    margin-top: 1000px;
+    border-radius: 60px;
+    margin-top: 100px;
+}
+footer {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+.footer-links {
+    color: white;
+    text-decoration: none;
+}
+#footer-nav {
+    float: right;
+    margin: 70px;
+    font-size: 20px;
 }
